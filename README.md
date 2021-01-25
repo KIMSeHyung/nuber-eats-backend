@@ -17,3 +17,14 @@ apollo-server-express
 @nestjs/typeorm : 네스트용 typeorm 
 typeorm
 pg : postgresql
+
+
+## User Entity:
+
+- id
+- createAt
+- updatedAt
+
+- email
+- password
+- role(client|owner|delivery)
